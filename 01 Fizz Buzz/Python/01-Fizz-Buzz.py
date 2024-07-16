@@ -20,4 +20,10 @@ def fizzbuzz(n = 100):
             print(i)
     exit
 
-fizzbuzz()
+print("deseas agregar un rango S para si, para no cualquier otra entrada")
+rango = input().lower()
+if rango == "s":
+    n = input("Ingrese el numero maximo del rango: ")
+    fizzbuzz(int(n))
+else:
+    fizzbuzz()
