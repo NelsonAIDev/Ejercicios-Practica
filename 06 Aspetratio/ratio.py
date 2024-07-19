@@ -34,3 +34,5 @@ def calcularProporcion(URL):
 calcularProporcion("https://24ai.tech/es/wp-content/uploads/sites/5/2023/10/01_product_1_sdelat-izobrazhenie-1-1-2.jpg")
 #16:9
 calcularProporcion("https://images6.alphacoders.com/134/thumb-1920-1346530.jpeg")
+#3:4
+calcularProporcion("https://www.blogdelfotografo.com/wp-content/uploads/2021/05/relacion-4-3.webp")
